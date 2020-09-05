@@ -6,10 +6,15 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		0A9C4CFD25029D34001C3F5A /* testPython.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = testPython.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		0A9C4CF225029CD5001C3F5A = {
 			isa = PBXGroup;
 			children = (
+				0A9C4CFD25029D34001C3F5A /* testPython.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -23,6 +28,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/python3;
+			buildWorkingDirectory = "";
 			dependencies = (
 			);
 			name = testPython;
